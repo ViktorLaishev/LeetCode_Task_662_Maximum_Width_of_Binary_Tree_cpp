@@ -7,7 +7,7 @@ public:
         int maxWidth = 0;
         while (!q.empty()) {
             unsigned long long leftPos = q.front().second, rightPos = leftPos;
-            int levelSize = q.size();
+            int levelSize = q.size(); 
             for (int i = 0; i < levelSize; i++) {
                 auto [node, pos] = q.front();
                 q.pop();
