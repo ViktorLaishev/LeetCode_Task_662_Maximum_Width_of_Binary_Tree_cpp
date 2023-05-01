@@ -7,7 +7,7 @@ The width of one level is defined as the length between the end-nodes (the leftm
  
 It is guaranteed that the answer will in the range of a 32-bit signed integer. 
         
- 
+  
 
 Example 1:
 
