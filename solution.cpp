@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int widthOfBinaryTree(TreeNode* root) {
+    int widthOfBinaryTree(TreeNode* root) { 
         if (!root) return 0;
         queue<pair<TreeNode*, unsigned long long>> q;
         q.push({root, 1});
